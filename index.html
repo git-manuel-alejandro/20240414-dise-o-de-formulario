@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-slate-100">
+
+  <header class="bg-slate-200">
+    <!-- <h1 class="bg-slate-200 title"> -->
+    <h1
+      class="mb-3 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white title center">
+      Instituto Andrés Bello
+    </h1>
+  </header>
+
+  <div class="container">
+
+    <div class="carreras box">
+      <h2 class="text-4xl font-bold dark:text-white center">
+        Carreras disponibles
+      </h2>
+      <br>
+
+      <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+        <li class="hover">Ingenieria en Informática</li>
+        <li class="hover">Ingenieria en Ciber Seguridad</li>
+        <li class="hover">Ingenieria en Infraestructura Cloud</li>
+        <li class="hover">Ingenieria en Redes y Conectividad</li>
+        <li class="hover">Ingenieria en Electrónica</li>
+
+      </ul>
+    </div>
+
+
+    <div class="contacto box">
+      <h2 class="text-xl font-bold dark:text-white center">
+        Contáctanos
+      </h2>
+      <br>
+      <form action="" method="post">       
+        <div class="item box-item">
+          <label for="">Nombre</label><br>
+          <input type="text" placeholder="" class="input">
+        </div>
+        <div class="item box-item">
+          <label for="">Apellido:</label><br>
+          <input type="text" placeholder="" class="input">
+        </div>
+        <div class="item box-item">
+          <label for="">Rut:</label><br>
+          <input type="text" placeholder="" class="input">
+        </div>
+        <div class="item box-item">
+          <label for="">Dirección:</label><br>
+          <input type="text" placeholder="" class="input">
+        </div>
+        <div class="item box-item">
+          <label for="cars">Seleccion la carrera:</label>
+          <select name="" id="" class="item box-item list">
+            <option value="">Ingenieria en Informática</option>
+            <option value="">Ingenieria en Ciber Seguridad</option>
+            <option value="">Ingenieria en Infraestructura Cloud</option>
+            <option value="">Ingenieria en Redes y Conectividad</option>
+            <option value="">Ingenieria en Electrónica</option>
+          </select>
+        </div>
+
+        <div class="item box-item">
+          <label for="inicio">Inicio:</label>
+          <input type="date" id="inicio" name="inicio">
+        </div>
+
+        <div class="center">
+
+          <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Guardar</button>
+        </div>
+
+       
+
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
